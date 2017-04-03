@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ 
+.contenedor {
+	background:#ccc;
+	width:90%;
+	max-width:1200px;
+	margin:auto;
+
+	display:flex;
+	flex-flow:row wrap;
+}
+ 
+body {
+	background:#e9e9e9;
+}
+ 
+header {
+	background:#2c3e50;
+	width:100%;
+	padding:20px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+ 
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+ 
+header .logo {
+	color:#fff;
+	font-size:30px;
+}
+ 
+header .logo img {
+	width:50px;
+	vertical-align: top;
+}
+ 
+header .logo a {
+	color:#fff;
+	text-decoration: none;
+	line-height:50px;
+}
+ 
+header nav {
+	width:50%;
+	/* Flexbox */
+ 
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+ 
+header nav a {
+	color:#fff;
+	text-align: center;
+	padding:10px;
+ 
+	/* Flexbox */
+}
+ 
+.main {
+	background:#fff;
+	padding:20px;
+    height: 560px;
+	flex:1 1 75%;
+    height:auto;
+    width:800px;
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+        /*Espacio entre columnas*/
+    column-gap: 2em;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    -o-column-gap: 2em;
+    /*Agrega una barra solida de color*/
+    column-rule: 2px solid #666;
+    -webkit-column-rule: 2px solid #666;
+    -moz-column-rule: 2px solid #666;
+    -o-column-rule: 2px solid #666;
+    
+	/*flex:1;*/
+}
+ 
+.main article {
+	
+    margin-bottom: 20px;
+	padding-bottom:30px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 40%;
+    margin-top: 0;
+
+}
+.main table {
+    border-collapse: collapse;
+    width: 900px;
+}
+  
+aside {
+	background:#e67e22;
+	padding:20px;
+    
+    height:auto;
+	/*FLEX*/
+	flex:1 1 20%;
+	/*flex:0 0 300px;*/
+ 
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+	justify-content:flex-start;   
+}
+
+aside h2 {
+    flex: auto;
+    margin-left: 20px;
+}
+
+aside a {
+    flex: auto;
+    margin-left: 50px;
+    display: block;    
+}
