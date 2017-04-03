@@ -1,4 +1,4 @@
-Esto debes ejecutar en tu consola de windows, ya que como estas usando ajax con un archivo local te pide que el navegador lo validate antes,
+Esto debes ejecutar en tu consola de windows, ya que como esta usando ajax con un archivo local te pide que el navegador lo validate antes,
 sin esto no leera el JSON. y sus osx o ubuntu tendras que cambiar la dirección de tu carpeta local.
 
 
